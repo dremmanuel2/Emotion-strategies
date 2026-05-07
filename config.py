@@ -14,7 +14,7 @@ class Settings(BaseSettings):
     DEBUG: bool = False
     
     # 硅基流动 LLM 配置
-    SILICONFLOW_API_KEY: str = "sk-bamdxwcpuztjvausmdbrawauilfyxfyzsthnjxjeawhauset"
+    SILICONFLOW_API_KEY: str = "sk-"
     SILICONFLOW_API_BASE_URL: str = "https://api.siliconflow.cn/v1"
     SILICONFLOW_MODEL: str = "Qwen/Qwen2.5-72B-Instruct"
     
